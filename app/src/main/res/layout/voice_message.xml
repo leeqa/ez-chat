@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="@dimen/audio_button_size"
+                android:layout_height="@dimen/audio_button_size"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="@dimen/audio_button_size"
+                android:layout_height="@dimen/audio_button_size"
+                android:src="@drawable/ic_play_arrow_black_24dp"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="150dp"
+
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timestamp_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|start"
+        android:textColor="#7d7d7d"
+        android:textSize="10sp"
+        android:visibility="gone"
+        tools:text="12:10 am" />
+
+</LinearLayout>

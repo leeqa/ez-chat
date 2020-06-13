@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1043111684173",
+    "firebase_url": "https://rednews-59253.firebaseio.com",
+    "project_id": "rednews-59253",
+    "storage_bucket": "rednews-59253.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043111684173:android:05e7219e25dfd136bcd404",
+        "android_client_info": {
+          "package_name": "com.abidingtech.rednewsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043111684173-l6buggc2dio24m1tpuo0alp9ud06pl3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abidingtech.rednewsapp",
+            "certificate_hash": "47aa75d61491dca250f33c738d76f3273cd93bdf"
+          }
+        },
+        {
+          "client_id": "1043111684173-rjro4mvbshlsctdmtp9carddp2rvue80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo6wbg7L9GRzCvIWWX1YJnsfmCEXTcDJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043111684173-rjro4mvbshlsctdmtp9carddp2rvue80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

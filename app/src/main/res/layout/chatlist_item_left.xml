@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:paddingStart="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    tools:ignore="RtlHardcoded,RtlSymmetry">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:cardBackgroundColor="@color/lightRed"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robotobold"
+                    android:text="Ali"
+                    android:textColor="@color/black"
+                    android:textDirection="rtl"
+                    android:textSize="@dimen/normal_text"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvCommentBody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text" />
+
+
+                <com.abidingtech.rednewsapp.services.AudioPlayer
+                    android:id="@+id/audioPlayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <androidx.coordinatorlayout.widget.CoordinatorLayout
+                    android:id="@+id/clImage"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivImage"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop" />
+
+                    <ProgressBar
+                        android:id="@+id/pbImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_anchor="@id/ivImage"
+                        app:layout_anchorGravity="center" />
+
+                    <androidx.coordinatorlayout.widget.CoordinatorLayout
+                        android:id="@+id/clDownload"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+
+                            android:layout_gravity="center">
+
+                            <ProgressBar
+                                style="?android:progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+
+                                android:layout_height="match_parent"
+
+                                android:layout_gravity="center"
+                                android:progress="100"
+                                android:progressDrawable="@drawable/circle"
+
+                                android:progressTint="@color/dark"
+                                tools:targetApi="lollipop" />
+
+                            <ProgressBar
+                                android:id="@+id/pbDownload"
+                                style="?android:progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:progress="0"
+                                android:progressDrawable="@drawable/circle"
+
+                                android:visibility="visible" />
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/tvTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/normal_text"
+                            app:layout_anchor="@id/pbDownload"
+                            app:layout_anchorGravity="center" />
+                    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/fabPlay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_play_arrow_black_24dp"
+                        android:tint="@color/white"
+                        android:visibility="gone"
+                        app:layout_anchor="@id/ivImage"
+                        app:layout_anchorGravity="center" />
+                </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+                <TextView
+                    android:id="@+id/tvTimeAgo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:text="" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/ivForward"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_redo"
+            android:tint="@color/ef_grey" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

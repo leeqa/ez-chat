@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed3237</color>
+    <color name="colorPrimaryDark">#c9373c</color>
+    <color name="colorAccent">#ed3237</color>
+    <color name="colorSecondaryDark">#d4353a</color>
+    <color name="lightRed">#E9B0B1</color>
+    <color name="SecondaryDark">#6d6362</color>
+
+    <color name="tv_color">#212121</color>
+    <color name="colorblue">#00a8e9</color>
+    <color name="color_green">#3BB143</color>
+    <color name="colorblueDark">#2b5dac</color>
+    <color name="colorbrown">#d2ae6d</color>
+    <color name="cream">#F1DEBB</color>
+    <color name="white">#ffff</color>
+    <color name="colorHalfWhite">#FEFEFA</color>
+    <color name="card_bg_dark_color">#0e0e0e</color>
+    <color name="black">#000</color>
+
+    <color name="ultra_dark">#29303F</color>
+    <color name="ultra_light">#F1EDED</color>
+    <color name="ultra_light_grey">#D8D4D4</color>
+    <color name="dark">#696E79</color>
+    <color name="ultra_dark_overlay">#0D29303F</color>
+    <color name="gray_text">#686565</color>
+    <color name="ef_grey">#9E9E9E</color>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--primarycolr:ed3237-->
+    <!--primarydark:c9373c-->
+    <!--colorblue:00a8e9-->
+    <!--colorbluedark:2b5dac-->
+    <!--colorbrownlight:d2ae6d-->

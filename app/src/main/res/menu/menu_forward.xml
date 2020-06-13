@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_reply"
+        android:icon="@drawable/ic_return"
+        android:orderInCategory="100"
+        android:title="Forward"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:orderInCategory="100"
+        android:title="Share"
+        android:visible="false"
+        app:iconTint="@color/colorPrimary"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_delete"
+        android:orderInCategory="100"
+        android:title="Delete"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_forward"
+        android:icon="@drawable/ic_redo"
+        android:orderInCategory="100"
+        android:title="Forward"
+        app:showAsAction="always" />
+
+
+</menu>

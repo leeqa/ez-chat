@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">ریڈ نیوز چیٹ</string>
+    <string name="urdu">اردو</string>
+    <string name="select_language">زبان منتخب کریں</string>
+    <string name="language_field_require">زبان کی فیلڈ ضروری ھے</string>
+    ///Login///
+    <string name="mobile_login">موبائل لاگ ان</string>
+    <string name="enter_your_no">اپنا موبائل نمبر درج کیجئے</string>
+    <string name="we_sent_u_code">ہم آپ کو آپ کے موبائل نمبر پر پاس ورڈ بھیجیں گے</string>
+    <string name="send">بھیجیں</string>
+
+    ///otp///
+    <string name="otp_verification">او ٹی پی تصدیق</string>
+    <string name="sent_code">اس نمبر  پر کوڈ بھیج دیا گیا ھے</string>
+    <string name="we_sent">ھم آپ کو </string>
+    <string name="otp_digit_msg">اپنا 6 ہندسوں کا کوڈ درج کریں۔</string>
+    <string name="verify_info">کوڈ نہیں ملا ؟ دوبارا بھیجیں۔</string>
+    <string name="web_login">ویب لاگ ان</string>
+    <string name="web_logout">ویب لاگ آوَٹ</string>
+    <string name="verify">تصدیق کریں</string>
+    ///
+    <string name="session_expire">آپ کااکاونٹ سیشن ختم ھو گیاھے</string>
+    <string name="login_again">آپ کو دوبارہ لاگ ان کرنے کی ضرورت ھے</string>
+    <string name="something_went_wrong">کچھ مسئلہ ھو گیا ھے</string>
+    <string name="restart_app">ایپ کو چلانے کے لئے ری سٹارٹ کے بٹن کو دبائیں</string>
+    <string name="complete_profile">پروفائل مکمل کریں</string>
+    <string name="complete_profile_info">پروفائل مکمل نہ ہونے کی وجہ سے آپ یہ عمل انجام نہیں دے سکتے</string>
+    <string name="complete_">مکمل کریں</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="empty_list"> فہرست خالی ہے</string>
+    <string name="select_option">ایک آپشن منتخب کریں</string>
+    <string name="select_an_image">ایک تصویر منتخب کریں</string>
+    <string name="name_field_require">نام کی فیلڈ ضروری ھے</string>
+    <string name="documents">ڈوکیومنٹس</string>
+    <string name="video_limit"> دس ایم بی سے کم کی ویڈیو منتخب کریں</string>
+    ////profile///
+    <string name="profile">پروفائل</string>
+    <string name="name">نام </string>
+    <string name="save">محفوظ کریں </string>
+    <string name="city">شہر*</string>
+    <string name="address">پتہ*</string>
+    <string name="privacy">پرائیویسی  </string>
+    <string name="search">تلاش کریں</string>
+    <string name="empty_search_list">کچھ نھیں ملا</string>
+    <string name="user_search_hint">یوزر کا نام یا فون نمبر لکھیں</string>
+    <string name="cancel_confirm_msg">کیا آپ واقعی اس کو منسوخ کرنا چاہتے ہیں؟</string>
+    <string name="confirm_title"> تصدیق</string>
+    <string name="yes">جی ہاں</string>
+    <string name="no">جی نہیں</string>
+    <string name="logout_confirm">کیا آپ واقعی لاگ آوَٹ کرنا چاھتے ھیں؟</string>
+    <string name="group">گروپ</string>
+    <string name="group_name">گروپ کا نام</string>
+    <string name="old_password">پرانا پاسورڈ</string>
+    <string name="new_password">نیا پاسورڈ</string>
+    <string name="just_now">ایک سیکینڈ پہلے</string>
+    <string name="slide_to_cancel">slide to cancel</string>
+    <string name="change_password">پاسورڈ تبدیل کریں</string>
+    <string name="back_confirm">آپ کے تمام پیغامات سینڈ نھیں ھوئے کیا آپ واپس جانا چاھتے ھیں؟</string>
+    <string name="add_participant">ممبر شامل کریں</string>
+    <string name="group_admin">گروپ ایڈمن</string>
+    <string name="make_group_admin">گروپ کا ایڈمن بنائیں</string>
+    <string name="dismiss_group_admin">گروپ ایڈمن کے درجے سے خارج کریں</string>
+    <string name="remove_member">ممبر کو گروپ سے نکا لیں</string>
+    <string name="add_group">نیا گروپ بنائیں</string>
+    <string name="web_login_">ویب پر لاگ ان کریں</string>
+    <string name="logout">لاگ آوَٹ</string>
+    <string name="members">ممبرذ</string>
+    <string name="group_created_by">گروپ بنانے والا</string>
+    <string name="group_active">گروپ ایکٹیو کریں</string>
+    <string name="group_in_active">گروپ ان ایکٹیو کریں</string>
+    <string name="group_is_in_active">گروپ ان ایکٹیو ھے</string>
+    <string name="old_password_required">پرانا پاسورڈ کی فیلڈ ضروری ھے</string>
+    <string name="write">لکھیں</string>
+    <string name="new_password_required">نیا پاسورڈ کی فیلڈ ضروری ھے</string>
+    <string name="profile_updated">پروفائل میں تبدیلی ھو گئ ھے</string>
+    <string name="password_changed"> پاسورڈ  تبدیل ھو گیا ھے</string>
+    <string name="member_required">کم سے کم ایک ممبر منتخب کریں</string>
+    <string name="enter_new_name">نیا نام لکھیں</string>
+
+    <string name="permission_data_english">
+        <![CDATA[
+        <html>
+         <head></head>
+         <body style="text-align:justify;color:black;list-style-type:none;">
+         <div>
+         <li style="font-size:20px;">For your batter experience we will obtained these permissions from your end</li>
+         <h2>Storage:</h2>
+         <li style="font-size:18px;">For selecting or upload any image of products from your phone storage, system catch data for batter experience and minimize the bandwidth for fast downloading  we need storage permission from your end</li>
+         <h2 >Camera:</h2>
+         <li style="font-size:18px;">For capturing the image of your product or store or any other related document we need camera permission from you</li>
+         <h2>Record Audio:</h2>
+         <li style="font-size:18px;">Making communication easy we need microphone permission for voice chat or voice comments</li>
+
+
+           </div>
+         </body>
+        </html>
+        ]]>
+    </string>
+    <string name="allow">اجازت دیں</string>
+
+    <string name="permission_data_urdu">
+        <![CDATA[
+        <html>
+         <head></head>
+         <body style="text-align:right;color:black;list-style-type:none;">
+         <div>
+         <li  style="font-size:22px;" >اپلیکیشن کے بہتر ین تجربے اور استعمال کے لئے ہمیں آپ سے کچھ ضروری اجازت درکار ہیں۔</li>
+         <h2>:سٹوریج</h2>
+         <li style="font-size:20px;">آپ کے فون کی سٹورج سے کسی بھی قسم کی تصاویر کا انتخاب کرنے اور بہتر ڈاون لوڈینگ کے لئے آپ کے فون کی سٹورج تک رسائی کی اجازت۔</li>
+         <h2>:کیمرہ</h2>
+         <li style="font-size:20px;">آپ کے کیمرہ سےآپ کی پروڈکٹ کی تصویر لینے کی اجازت۔</li>
+         <h2>:آڈیو ریکارڈ ینگ</h2>
+         <li style="font-size:20px;">مواصلت کو آسان بنانے اور زبانی کلام یا صوتی تبصروں کے لئے مائکروفون تک رسائی کی ضرورت ہے</li>
+
+
+           </div>
+         </body>
+        </html>
+        ]]>
+    </string>
+</resources>

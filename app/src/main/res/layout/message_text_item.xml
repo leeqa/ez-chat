@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    tools:ignore="RtlHardcoded,RtlSymmetry">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/lightRed"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ali"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/normal_text"
+                    android:visibility="visible" />
+
+
+                <LinearLayout
+                    android:id="@+id/llCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"/>
+
+                <TextView
+                    android:id="@+id/tvDeleted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This message was deleted"
+                    android:textColor="@color/gray_text"
+                    android:visibility="gone"
+                    android:textSize="@dimen/normal_text" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="end">
+                    <TextView
+                        android:id="@+id/tvTimeAgo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/small_text"
+                        android:textColor="@color/gray_text"
+                        android:text="9:45 PM" />
+
+                    <ImageView
+                        android:id="@+id/ivStatus"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="3dp"
+                        android:src="@drawable/ic_check_white_24dp"
+                        android:tint="@color/black"
+                        android:layout_gravity="center"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/ivForward"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_redo" />
+
+
+</LinearLayout>
+
+
