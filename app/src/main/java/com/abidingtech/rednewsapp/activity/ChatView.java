@@ -55,6 +55,7 @@ import com.google.gson.Gson;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import es.dmoral.toasty.Toasty;
@@ -319,6 +320,9 @@ public class ChatView extends LinearLayout implements  IdCallback,BooleanCallbac
             recordView.getMessageView().requestFocus();
         } else {
             chat.message_url = filePath;
+        }
+        if (chatList == null){
+            chatList = new ArrayList<>();
         }
         chatList.add(chat);
         adapter.notifyItemInserted(chatList.size() - 1);

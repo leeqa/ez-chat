@@ -29,6 +29,7 @@ import com.google.gson.Gson;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -386,6 +387,16 @@ public class APIRequest {
 
     public <T> void stringReqListPagination(String url, Class clazz, final ObjectCallback<T> callback) {
         Log.e("url", ""+url);
+
+        if(true){
+            ListPagination pagination = new ListPagination();
+            pagination.next_page_url = "sdsd";//jsonObject.getString("next_page_url");
+            pagination.data = new ArrayList();
+            callback.onData((T) pagination);
+            return;
+        }
+
+
         try {
             StringRequest request = new StringRequest(Request.Method.GET, url, response -> {
 
